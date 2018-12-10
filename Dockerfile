@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:latest  
 
-COPY ./app
+COPY . /app
 
 WORKDIR /app
 
